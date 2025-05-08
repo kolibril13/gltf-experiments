@@ -3,7 +3,9 @@
 		"dev": "npm run build -- --sourcemap=inline --watch",
 		"build": "esbuild js/widget.js --minify --format=esm --bundle --outdir=src/gltf_experiments/static"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"three": "^0.176.0"
+	},
 	"devDependencies": {
 		"esbuild": "^0.25.1"
 	}
